@@ -16,6 +16,7 @@ plt.axvline(0, color='black', linewidth=0.8)
 plt.grid(True, linestyle='--',alpha=0.6)
 plt.legend(loc='upper left')
 plt.title('vecteur résultant')
+plt.savefig('combi.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 
